@@ -1,0 +1,42 @@
+$date
+	Mon Apr 13 01:55:23 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module muxtest $end
+$var wire 1 ! F $end
+$var reg 16 " A [15:0] $end
+$var reg 6 # B [5:0] $end
+$scope module M $end
+$var wire 16 $ in [15:0] $end
+$var wire 6 % sel [5:0] $end
+$var wire 1 ! out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx %
+bx $
+bx #
+bx "
+x!
+$end
+#5
+0!
+b0 #
+b0 %
+b11110000001010 "
+b11110000001010 $
+#10
+1!
+b1 #
+b1 %
+#15
+b1100 #
+b1100 %
+#20
